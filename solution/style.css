@@ -61,6 +61,10 @@ border-color: white !important
 	margin-top:5%;
 
 }
+/*Section1*/
+.card{
+	width:15.6rem;
+}
 .card-text{
 	font-size: 10px;
 	font-weight: bold;
@@ -68,6 +72,7 @@ border-color: white !important
 .section1 .heading-1{
 	margin-top: 8%;
 	margin-bottom: 5%;
+	color:black !important;
 }	
 .section1 .para-1{
 	width: 60%;
@@ -80,6 +85,7 @@ border-color: white !important
 }
 .section1{
 	margin-bottom: 8%;
+	color:black;
 }
 .section2 .container-fluid{
 	background-image: url("images/pexels-photo-924824.jpeg");
@@ -126,8 +132,12 @@ border-color: white !important
 
 /*Footer*/
 .social .i{
-	color:red;
+	color:white;
+	background-color: white;
 	font-size: 50px;
+}
+.section5{
+	margin-top: 10%;
 }
 
 	/*Mobile devices*/
@@ -138,24 +148,57 @@ border-color: white !important
 	width:140px;
 	height: 60px;
 	}
+	.nav-link{
+	color:white!important;
+	font-size: 1.1em;
+	}
 	.form-inline .form-control{
 	width:50%;
 	}
 	.btn-outline-success{
 		margin:10px;
 	}
-	.site-title > h3{
-	color:white;
-	font-family:'Righteous'; 
-	margin-top: 40%;
-	margin-bottom: 6%;
-	font-size: 50px;
+
+
+	.site-content .site-title{
+		font-size: 30px;
+		padding-left: 15%;
+	}
+	.site-content .site-btn2{
+		display: none;
+	}
+	.site-content .site-btn1{
+		margin-left: 15%;
+	}
+	.section1 .heading-1{
+		font-size: 30px;
+	}
+	.section1 .para-1{
+		font-size: 15px;
+		width:auto;
+		margin-left:0;
 	}
 
+	.section1 .col-md-4 {
+		padding: 5%;
+		margin-left: 8%;
+	}
+	.section1.card{
+		width:15rem;
+	}
+
+	.section1 .card-body{
+		font-size: 16px;
+	}
 }
 
+
+
+
+
+
 /*Tablet Devices*/
-@media(min-width: 768px and max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px){
 	.navbar-brand img{
 	width:200px;
 	height: 60px;
@@ -166,10 +209,27 @@ border-color: white !important
 	.btn-outline-success{
 		margin:10px;
 	}
+
+	/*Section1*/
+	.card{
+	width:10rem;
+	}
+	.section1 .heading-1{
+	margin-top: 50%;
+	margin-bottom: 5%;
+	color:black !important;
+	}	
+	.section1 .card{
+		width:14rem;
+	}
+	.section1 .card img{
+		width:14rem;
+	}
+	
+	.section4 .col-md-7  img{
+		width:350px;
+	}
 }
 
 
-/*Desktop*/
-@media(min-width: 992px){
 
-}
